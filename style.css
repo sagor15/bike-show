@@ -1,6 +1,7 @@
 header {
   background-color: #274a79;
   color: white;
+  padding: 30px 50px;
 }
 img {
   width: 400px;
@@ -13,9 +14,31 @@ img {
   color: black;
   font-size: 23px;
 }
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
 
-@media screen and (max-width: 488px) {
-  .sagor img {
-    width: 225px;
-  }
+@media only screen and (max-width: 450px) {
+    header h1 {
+      font-size: 28px;
+    }
+    .sagor img{
+        width: 100%;
+    }
+    .sbtn{
+        width: 100%;
+        font-size: 23px;
+        text-align: center;
+        padding: 10px 10px;
+        color: #ffffff;
+        background: #790606a3;
+    }
 }
