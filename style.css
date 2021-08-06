@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
 header {
-  background-color: #274a79;
+  background-color: #264653;
   color: white;
   padding: 30px 50px;
 }
@@ -7,12 +13,12 @@ img {
   width: 400px;
 }
 .sbtn {
-  border: none;
-  background: #31fd78;
-  padding: 10px 81px;
-  border-radius: 7px;
-  color: black;
-  font-size: 23px;
+    background: #e76f51;
+    border-radius: 5px;
+    padding: 10px 46px;
+    font-size: 19px;
+    border: none;
+    color: white;
 }
 .card {
   position: relative;
@@ -25,20 +31,23 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
-
+.first-p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
 @media only screen and (max-width: 450px) {
-    header h1 {
-      font-size: 28px;
-    }
-    .sagor img{
-        width: 100%;
-    }
-    .sbtn{
-        width: 100%;
-        font-size: 23px;
-        text-align: center;
-        padding: 10px 10px;
-        color: #ffffff;
-        background: #790606a3;
-    }
+  header h1 {
+    font-size: 28px;
+  }
+  .sagor img {
+    width: 100%;
+  }
+  .sbtn {
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #ffffff;
+    background: #790606a3;
+  }
 }
