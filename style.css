@@ -1,0 +1,21 @@
+header {
+  background-color: #274a79;
+  color: white;
+}
+img {
+  width: 400px;
+}
+.sbtn {
+  border: none;
+  background: #31fd78;
+  padding: 10px 81px;
+  border-radius: 7px;
+  color: black;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 488px) {
+  .sagor img {
+    width: 225px;
+  }
+}
