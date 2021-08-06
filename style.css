@@ -162,6 +162,13 @@ p {
     margin-bottom: 1rem;
     font-weight: 600;
 }
+.modal-body.fw-bold {
+    color: black;
+}
+.modal-header {
+    color: black;
+    font: caption;
+}
 
 
 .fab{
