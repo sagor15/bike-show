@@ -9,16 +9,28 @@ header {
   color: white;
   padding: 30px 50px;
 }
-img {
-  width: 400px;
+h1{
+    font-family: sans-serif;
+    font-size: 54px;
 }
+.second-p,.first-p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+ .sagor img {
+  width: 421px;
+  height: 366px;
+}
+
 .sbtn {
     background: #e76f51;
     border-radius: 5px;
     padding: 10px 46px;
     font-size: 19px;
     border: none;
-    color: white;
+    color: rgb(255, 254, 254);
+    font-weight: 700;
 }
 .card {
   position: relative;
@@ -31,16 +43,151 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+p.card-text.text-center {
+    color: black;
+    font-weight: bold;
+}
+p.text-primary.text-center.mt-3 {
+    color: black;
+    font-weight: 700;
+}
+/* p.text-center {
+    font-size: 38px;
+    color: #e76f51;
+    font-weight: bold;
+} */
+p.fw-bold.text-center {
+    font-weight: bold;
+    color: #ec0606;
+}
+img.card-img-top {
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.card-img-topp{
+    width: 40%;
+    height: 40%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.fas{
+    color: #e76f51;
+}
+
 .first-p{
     margin-top: 0;
     margin-bottom: 1rem;
 }
-@media only screen and (max-width: 450px) {
+
+.newsletter {
+    padding: 80px 0;
+
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+
+.content-tuned {
+    font-size: 0.8rem;
+    margin-bottom: 34px ;
+    color: #fff;
+    font-weight: 600;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 6px;
+    font-weight: 700;
+
+}
+
+input[type="email"]{
+    background-color: #1f8d90;
+}
+
+.form-control::placeholder { 
+           color: #fff;
+           opacity: 1; 
+           font-size: 1.3rem;
+}
+
+.form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 2px 0px 0px 2px
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    border-color: none
+}
+
+.btn {
+    font-size: 1.3rem;
+    min-height: 50px;
+    border-radius: 0;
+    background: #243c4f;
+    color: #fff;
+    font-weight: 300
+    
+}
+
+.btn:hover {
+    background: red;
+    color: #fff
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, .25);
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.fa-facebook-f{
+    color: #4267B2;
+}
+
+.fa-youtube{
+   color: #F60002;
+}
+.fa-twitter{
+   color: rgb(8, 160, 233);
+}
+
+
+@media only screen and (max-width: 768px) {
   header h1 {
     font-size: 28px;
   }
   .sagor img {
     width: 100%;
+    height: auto;
   }
   .sbtn {
     width: 100%;
@@ -48,6 +195,11 @@ img {
     text-align: center;
     padding: 10px 10px;
     color: #ffffff;
-    background: #790606a3;
+    background: #e76f51;
   }
+  /* img.card-img-top,.card-img-topp{
+      width: 40%;
+      height: 40%;
+  } */
+     
 }
